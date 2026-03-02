@@ -33,8 +33,16 @@ bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bo
 2. ブランチを変える場合
 
 ```bash
-BOOTSTRAP_REPO_REF=<branch> \
-bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/<branch>/bootstrap.sh)
+BOOTSTRAP_REPO_REF=main \
+bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/main/bootstrap.sh)
+```
+
+`dotfiles-shell` のブランチも同時に切り替える場合:
+
+```bash
+BOOTSTRAP_REPO_REF=dev \
+LAYER2_SHELL_REPO_REF=main \
+bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bootstrap.sh)
 ```
 
 3. 個別実行
