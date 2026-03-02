@@ -24,19 +24,20 @@ macOS (Apple Silicon / Intel) 向けの初期セットアップを、最小レ�
 
 ## Setup
 
-1. ブラウザでリポジトリ URL をコピーして実行
+1. bootstrap.sh を直接実行
 
 ```bash
-git clone <REPO_URL> ~/.dotfiles-mac && cd ~/.dotfiles-mac && ./bootstrap.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bootstrap.sh)
 ```
 
-例:
+2. ブランチを変える場合
 
 ```bash
-git clone https://github.com/<your-account>/<your-repo>.git ~/.dotfiles-mac && cd ~/.dotfiles-mac && ./bootstrap.sh
+BOOTSTRAP_REPO_REF=<branch> \
+bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/<branch>/bootstrap.sh)
 ```
 
-2. 個別実行
+3. 個別実行
 
 ```bash
 ./layer1/apply.sh
