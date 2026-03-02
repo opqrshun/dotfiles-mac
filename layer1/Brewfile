@@ -2,11 +2,9 @@
 brew "git"
 brew "gh"
 brew "jq"
+brew "node"
 brew "ripgrep"
 brew "fzf"
 brew "wget"
+brew "vim"
 brew "gnu-sed"
-
-# GUI (minimum)
-cask "iterm2"
-cask "visual-studio-code"

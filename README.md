@@ -26,6 +26,8 @@ macOS (Apple Silicon / Intel) 向けの初期セットアップを、最小レ�
 
 1. bootstrap.sh を直接実行
 
+※ Homebrew 未導入の環境では、途中で sudo パスワード入力が求められます。
+
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bootstrap.sh)
 ```
@@ -120,4 +122,5 @@ mv ~/.dotfiles-shell ~/.dotfiles-shell.backup.$(date +%Y%m%d%H%M%S)
 ## Notes
 
 - 秘密情報（token, SSH 秘密鍵）は管理対象外です。
+- VS Code は Brewfile 管理対象外です（ブラウザから手動インストール方針）。
 - 実行対象は `spec/`, `layer1/`, `layer2/` のみです。`dotfiles-macOS-old/` や他ディレクトリのコードは読み込みません。
