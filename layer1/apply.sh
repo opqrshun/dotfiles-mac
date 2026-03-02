@@ -53,7 +53,7 @@ apply_brew_bundle() {
   [[ -f "${brewfile}" ]] || fail "Brewfile not found: ${brewfile}"
 
   log 'Running brew bundle...'
-  brew bundle --file "${brewfile}" --no-lock
+  brew bundle --file "${brewfile}"
   log 'brew bundle completed.'
 }
 
