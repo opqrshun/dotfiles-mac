@@ -56,7 +56,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bo
 
 ```bash
 LAYER2_SHELL_REPO_URL=https://github.com/<you>/dotfiles-shell.git \
-LAYER2_SHELL_REPO_REF=master \
+LAYER2_SHELL_REPO_REF=main \
 ./layer2/install.sh
 ```
 

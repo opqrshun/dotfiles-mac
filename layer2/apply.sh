@@ -27,7 +27,7 @@ apply_dotfiles_shell() {
   local repo_url repo_dir repo_ref install_script
   repo_url="${LAYER2_SHELL_REPO_URL:-https://github.com/opqrshun/dotfiles-shell.git}"
   repo_dir="${LAYER2_SHELL_REPO_DIR:-$HOME/.dotfiles-shell}"
-  repo_ref="${LAYER2_SHELL_REPO_REF:-master}"
+  repo_ref="${LAYER2_SHELL_REPO_REF:-main}"
 
   repo_dir="$(resolve_home_path "${repo_dir}")"
   [[ "${repo_dir}" == /* ]] || fail "LAYER2_SHELL_REPO_DIR must be absolute: ${repo_dir}"
