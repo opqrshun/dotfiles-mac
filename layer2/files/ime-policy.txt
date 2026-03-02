@@ -1,0 +1,7 @@
+IME policy (macOS standard)
+
+- Use macOS built-in input sources (ABC + Japanese - Romaji).
+- Keep third-party IME out of baseline setup.
+- Recommended toggle: Control + Space.
+- Validate and change detailed shortcuts from:
+  System Settings > Keyboard > Keyboard Shortcuts > Input Sources

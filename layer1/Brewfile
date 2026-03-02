@@ -1,0 +1,12 @@
+# Core CLI
+brew "git"
+brew "gh"
+brew "jq"
+brew "ripgrep"
+brew "fzf"
+brew "wget"
+brew "gnu-sed"
+
+# GUI (minimum)
+cask "iterm2"
+cask "visual-studio-code"
