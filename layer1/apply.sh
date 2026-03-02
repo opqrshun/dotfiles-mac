@@ -29,7 +29,7 @@ install_homebrew_if_needed() {
   fi
 
   log 'Homebrew not found. Installing Homebrew.'
-  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 }
 
 load_brew_shellenv() {
