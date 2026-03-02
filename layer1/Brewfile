@@ -2,6 +2,7 @@
 brew "git"
 brew "gh"
 brew "jq"
+brew "lazygit"
 brew "node"
 brew "ripgrep"
 brew "fzf"
