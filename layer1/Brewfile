@@ -11,4 +11,5 @@ brew "wget"
 brew "vim"
 brew "gnu-sed"
 brew "awscli"
+brew "fd"
 
