@@ -10,3 +10,5 @@ brew "tmux"
 brew "wget"
 brew "vim"
 brew "gnu-sed"
+brew "awscli"
+
