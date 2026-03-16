@@ -12,4 +12,13 @@ brew "vim"
 brew "gnu-sed"
 brew "awscli"
 brew "fd"
+brew "bat"
+brew "php"
+brew "composer"
+brew "codex" #chatgpt
+
+# GUI Apps
+cask "postman"
+cask "keepassxc"
+cask "docker"
 
