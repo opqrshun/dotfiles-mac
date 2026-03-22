@@ -43,7 +43,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/main/b
 
 ```bash
 BOOTSTRAP_REPO_REF=dev \
-LAYER2_SHELL_REPO_REF=main \
+LAYER2_SHELL_REPO_REF=master \
 bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bootstrap.sh)
 ```
 
@@ -58,7 +58,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/opqrshun/dotfiles-mac/dev/bo
 
 ```bash
 LAYER2_SHELL_REPO_URL=https://github.com/<you>/dotfiles-shell.git \
-LAYER2_SHELL_REPO_REF=main \
+LAYER2_SHELL_REPO_REF=master \
 ./layer2/install.sh
 ```
 
